@@ -1,0 +1,7 @@
+//program to to print "My First Program
+//developed by Mihira date 13/8/25
+#include<stdio.h>
+void main()
+{
+    printf("My First Program");
+}
