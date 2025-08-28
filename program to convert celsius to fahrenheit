@@ -1,0 +1,11 @@
+//program to convert celsius to farenheit
+//developed by Mihira date 27/8/25
+#include<stdio.h>
+void main()
+{
+    float c,fahrenheit;
+    printf("Enter temperature in celsius");
+    scanf("%f",&c);
+    fahrenheit = (c * 9/5) + 32;
+    printf("%f c = % fahrenheit\n" ,c,fahrenheit);
+}
