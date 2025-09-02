@@ -1,0 +1,21 @@
+//program to use all 5 arithmetic operators on 2 intergers
+//developed by mihira date 27/08/25
+#include <stdio.h>
+void main()
+{
+int a,b,sum,diff,pro,mod;
+float div;
+printf("enter value of a");
+scanf("%d",&a);
+printf("enter value of b");
+scanf("%d",&b);
+sum = a + b;
+diff = a - b;
+pro=a * b;
+mod=a % b;
+printf("sum =%d\n", sum);
+printf("diff=%d\n", diff);
+printf("pro=%d\n", pro);
+printf("mod=%d\n", mod);
+printf("div=%f\n", div);
+}
