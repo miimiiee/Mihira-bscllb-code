@@ -1,0 +1,14 @@
+//Program to print the product of first n natural numbers 
+//Developed by Mihira Datw 17/09/25
+#include<stdio.h>
+void main()
+{
+  int counter,n,pro= 1;
+  printf("enter value of n\n");
+  scanf("%d",&n);
+  for(counter=1;counter<=n;counter++)
+{
+    pro = pro * counter;
+}
+printf("Pro=%d",pro);
+}
