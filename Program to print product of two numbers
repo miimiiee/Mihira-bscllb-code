@@ -1,0 +1,11 @@
+//Program to print product of two numbers 
+//Developed by Mihira Date 10/09/25
+#include<stdio.h>
+void main ()
+{
+    int pro, a,b;
+    printf ("enter value of a and b \t");
+    scanf("%d""%d",&a,&b);
+    pro = a*b;
+    printf("product= %d",pro);
+}
