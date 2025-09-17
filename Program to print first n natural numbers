@@ -1,0 +1,11 @@
+//Program to print first n natural numbers 
+//Developed by Mihira Date 17/09/25
+#include <stdio.h>
+void main()
+{
+  int counter,n;
+  printf("enter value of n\n");
+  scanf("%d",&n);
+  for(counter=1;counter<=n;counter++)
+printf ("%d\n", counter);
+}
