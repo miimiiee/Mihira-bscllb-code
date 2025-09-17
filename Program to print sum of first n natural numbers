@@ -1,0 +1,14 @@
+//Program to print sum of first n natural numbers 
+//Developed by Mihira Date 17/09/25
+include <stdio.h>
+void main()
+{
+  int counter,n,sum = 0;
+  printf("enter value of n\n");
+  scanf("%d",&n);
+  for(counter=1;counter<=n;counter++)
+{
+    sum = sum+ counter;
+}
+printf("Sum=%d",sum);
+}
