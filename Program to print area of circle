@@ -1,0 +1,11 @@
+//Program to print area of circle 
+//Developed by Mihira Date 10/09/25
+#include<stdio.h>
+void main ()
+{
+    float area,r,pi= 3.14;
+    printf ("enter value of r\t");
+    scanf("%f",&r);
+    area = pi * r * r;
+    printf("area of circle = %f",area);
+}
