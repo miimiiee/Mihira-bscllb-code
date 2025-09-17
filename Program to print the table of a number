@@ -1,0 +1,11 @@
+//Program to print the table of a number
+//Developed by Mihira Date 17/09/25
+#inclide<srdio.h>
+void main()
+{
+    int i,n;
+    printf ("enter a number to display the respective table");
+    scanf("%d",&n);
+    for(i=1;i<=10;i++)
+    printf ("%d\n",n*i);
+}
