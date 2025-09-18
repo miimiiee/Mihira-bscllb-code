@@ -1,6 +1,6 @@
 //Program to find max of three numbers
 //Developed by Mihira Date 01/09/25
-#include<srdio.h>
+#include<stdio.h>
 void main()
 {
     int a,b,c;
