@@ -2,6 +2,7 @@
 //Developed by Mihira Date 10/09/25
 #include<stdio.h>
 void main()
+{
 int day;
     printf("Enter a number (1-7) to get the corresponding day of the week: ");
     scanf("%d", &day);
