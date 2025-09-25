@@ -1,0 +1,15 @@
+//program to print numbers from 1 to  n
+//developed by Mihira date 25/09/25
+#include<stdio.h>
+void main()
+{
+
+    int i,n;
+    printf("Enter value of n");
+    scanf("%d",&n);
+     printf("Even numbers from 1 to %d are :\n",n);
+    for (i=2;i<=n;i+=2)
+    {
+       printf("%d\n",i);
+}
+}
